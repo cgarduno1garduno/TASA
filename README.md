@@ -38,18 +38,16 @@ Automatic sleep stage classification is crucial for diagnosing sleep disorders, 
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/tasa-sleep-staging.git
-cd tasa-sleep-staging
+git clone [https://github.com/cgarduno1garduno/TASA.git](https://github.com/cgarduno1garduno/TASA.git)
+cd TASA
 
 # Create conda environment (recommended)
 conda create -n tasa python=3.11
 conda activate tasa
 
 # Install dependencies
+pip install torch torchvision torchaudio
 pip install -r requirements.txt
-
-# For Apple Silicon (MPS acceleration)
-pip install tensorflow-macos tensorflow-metal
 ```
 
 ## Dataset
@@ -192,11 +190,11 @@ tasa-sleep-staging/
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{tasa2025,
+@article{luna2026tasa,
   title={TASA: Transition-Aware Sparse Attention for Parameter-Efficient Sleep Stage Classification},
-  author={[Authors]},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+  author={Luna, Cristopher Daniel Garduno},
+  journal={arXiv preprint arXiv:2602.XXXXX},
+  year={2026}
 }
 ```
 
@@ -205,6 +203,6 @@ If you use this code in your research, please cite:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
-
-- Sleep-EDF Database: Kemp B, Zwinderman AH, Tuk B, Kamphuisen HAC, Oberye JJL. Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG. IEEE-BME 47(9):1185-1194 (2000).
-- PhysioNet: Goldberger AL, et al. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New Research Resource for Complex Physiologic Signals. Circulation 101(23):e215-e220 (2000).
+* Sleep-EDF Database: We thank Kemp et al. for providing the Sleep-EDF Database Expanded.
+* PhysioNet: The sleep recordings used in this study were obtained from PhysioNet.
+* AI Assistance: The author acknowledges the use of large language models (LLMs), specifically Google Gemini and Anthropic Claude, to assist in the software architecture implementation and manuscript refinement.
