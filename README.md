@@ -38,7 +38,7 @@ Automatic sleep stage classification is crucial for diagnosing sleep disorders, 
 
 ```bash
 # Clone repository
-git clone [https://github.com/cgarduno1garduno/TASA.git](https://github.com/cgarduno1garduno/TASA.git)
+git clone https://github.com/cgarduno1garduno/TASA.git
 cd TASA
 
 # Create conda environment (recommended)
