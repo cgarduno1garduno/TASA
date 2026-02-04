@@ -185,19 +185,6 @@ tasa-sleep-staging/
 └── README.md
 ```
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{luna2026tasa,
-  title={TASA: Transition-Aware Sparse Attention for Parameter-Efficient Sleep Stage Classification},
-  author={Luna, Cristopher Daniel Garduno},
-  journal={arXiv preprint arXiv:2602.XXXXX},
-  year={2026}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
